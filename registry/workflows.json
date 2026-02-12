@@ -1,0 +1,28 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "7b1e04f6-2606-4f89-aafa-5b5e6a920e1b",
+      "name": "Sanitize then Summarize",
+      "version": "1.0.0",
+      "developer_id": "dev_ai",
+      "status": "DRAFT",
+      "steps": [
+        {
+          "skill_id": "pii_redactor",
+          "input": {
+            "text": "{text}"
+          }
+        },
+        {
+          "skill_id": "summarize",
+          "input": {
+            "text": "{redacted}",
+            "max_words": 60
+          }
+        }
+      ],
+      "created_ts": "2026-02-11T14:46:15Z",
+      "updated_ts": "2026-02-11T14:46:15Z"
+    }
+  ]
+}

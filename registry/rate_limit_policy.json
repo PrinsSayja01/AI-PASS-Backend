@@ -1,0 +1,21 @@
+{
+  "tenant": {
+    "per_minute": 120,
+    "per_hour": 2000
+  },
+  "device": {
+    "per_minute": 60,
+    "per_hour": 800
+  },
+  "route_costs": {
+    "POST /skills": 1,
+    "POST /agents/run": 3,
+    "POST /workflows/run": 3,
+    "POST /rag": 2
+  },
+  "auto_suspend": {
+    "enabled": true,
+    "minutes": 10,
+    "threshold_429_per_5min": 20
+  }
+}

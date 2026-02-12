@@ -1,0 +1,28 @@
+{
+  "approved": [
+    {
+      "skill_id": "summarize",
+      "version": "1.0.0",
+      "submission_id": "manual",
+      "approved_ts": "now"
+    },
+    {
+      "skill_id": "translate",
+      "version": "1.0.0",
+      "submission_id": "manual",
+      "approved_ts": "now"
+    },
+    {
+      "skill_id": "pii_redactor",
+      "version": "1.0.0",
+      "submission_id": "manual",
+      "approved_ts": "now"
+    },
+    {
+      "skill_id": "rag_query",
+      "version": "1.0.0",
+      "submission_id": "manual",
+      "approved_ts": "now"
+    }
+  ]
+}

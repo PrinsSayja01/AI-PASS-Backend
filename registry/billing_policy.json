@@ -1,0 +1,10 @@
+{
+  "platform_fee_percent": 25,
+  "default_credit_value_usd": 0.01,
+  "skill_developers": {
+    "summarize": "dev_core",
+    "translate": "dev_core",
+    "pii_redactor": "dev_security",
+    "rag_query": "dev_ai"
+  }
+}

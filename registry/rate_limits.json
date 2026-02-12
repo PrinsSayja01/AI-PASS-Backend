@@ -1,0 +1,6 @@
+{
+  "default_per_minute": 60,
+  "overrides": {
+    "t1:rag_query": 30
+  }
+}

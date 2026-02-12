@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "ts": "2026-02-12T09:37:30Z",
+      "tenant_id": "t1",
+      "skill_id": "pii_redactor",
+      "version": "1.0.0",
+      "credits": 1,
+      "gross_usd": 0.01,
+      "platform_fee_usd": 0.0025,
+      "developer_net_usd": 0.0075,
+      "developer_id": "dev_security",
+      "latency_ms": 33
+    },
+    {
+      "ts": "2026-02-12T10:28:47Z",
+      "tenant_id": "t1",
+      "skill_id": "pii_redactor",
+      "version": "1.0.0",
+      "credits": 1,
+      "gross_usd": 0.01,
+      "platform_fee_usd": 0.0025,
+      "developer_net_usd": 0.0075,
+      "developer_id": "dev_security",
+      "latency_ms": 14
+    }
+  ]
+}

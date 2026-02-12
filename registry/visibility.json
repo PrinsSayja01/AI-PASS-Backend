@@ -1,0 +1,12 @@
+{
+  "skills": {
+    "summarize": {
+      "visibility": "public",
+      "allowed_tenants": []
+    },
+    "translate": {
+      "visibility": "public",
+      "allowed_tenants": []
+    }
+  }
+}

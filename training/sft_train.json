@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "Summarize the text in 3 sentences.",
+    "input": "Hello world. This is a dataset row.",
+    "output": "PLACEHOLDER_SUMMARY"
+  },
+  {
+    "instruction": "Summarize the text in 3 sentences.",
+    "input": "Contact me at test@mail.com",
+    "output": "PLACEHOLDER_SUMMARY"
+  }
+]

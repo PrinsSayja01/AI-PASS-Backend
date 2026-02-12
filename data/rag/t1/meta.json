@@ -1,0 +1,20 @@
+[
+  {
+    "tenant_id": "t1",
+    "doc_id": "t1_doc_1",
+    "chunk_id": 0,
+    "text": "Tenant t1 document. AI-Pass governance and device tokens."
+  },
+  {
+    "tenant_id": "t1",
+    "doc_id": "doc_public",
+    "chunk_id": 0,
+    "text": "This is public doc for allowed workflows."
+  },
+  {
+    "tenant_id": "t1",
+    "doc_id": "doc_secret",
+    "chunk_id": 0,
+    "text": "This is SECRET doc. Only specific workflow should access it."
+  }
+]

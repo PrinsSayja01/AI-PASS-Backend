@@ -1,0 +1,4 @@
+[
+  {"skill_id":"summarize","version":"1.0.0","risk":"Low","tier":"Free"},
+  {"skill_id":"translate","version":"1.0.0","risk":"Low","tier":"Free"}
+]

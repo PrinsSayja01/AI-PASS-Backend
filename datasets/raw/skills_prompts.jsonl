@@ -1,0 +1,3 @@
+{"task": "summarize", "input": "AI-Pass is a marketplace for agent skills. It supports governance and sandboxing.", "output": "AI-Pass is a governed marketplace for reusable agent skills."}
+{"task": "translate", "input": "Hello, how are you?", "output": "Hallo, wie geht es dir?"}
+{"task": "pii_redactor", "input": "Email is test@mail.com phone +49 123 456 789", "output": "Email is <EMAIL> phone <PHONE>"}

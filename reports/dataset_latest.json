@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "ts": 1770906541,
+  "created_sample_raw": "datasets/raw/skills_prompts.jsonl",
+  "raw_files": 1,
+  "clean_files": 1,
+  "total_rows": 3,
+  "split": {
+    "train": 2,
+    "valid": 0,
+    "test": 1
+  },
+  "per_file": [
+    {
+      "file": "datasets/raw/skills_prompts.jsonl",
+      "rows": 3,
+      "cleaned_file": "datasets/clean/skills_prompts.jsonl"
+    }
+  ],
+  "output": {
+    "train": "datasets/splits/train.jsonl",
+    "valid": "datasets/splits/valid.jsonl",
+    "test": "datasets/splits/test.jsonl"
+  },
+  "latency_ms": 1
+}

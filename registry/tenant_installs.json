@@ -1,0 +1,50 @@
+{
+  "tenants": {
+    "t1": {
+      "installed": {
+        "summarize": "1.0.0",
+        "pii_redactor": "1.0.0",
+        "rag_query": "1.0.0",
+        "decision_classifier": "1.0.0"
+      },
+      "history": [
+        {
+          "ts": "2026-02-11T13:30:02Z",
+          "action": "INSTALL",
+          "tenant_id": "t1",
+          "skill_id": "summarize",
+          "from_version": null,
+          "to_version": "1.0.0",
+          "actor": "admin"
+        },
+        {
+          "ts": "2026-02-11T13:30:02Z",
+          "action": "INSTALL",
+          "tenant_id": "t1",
+          "skill_id": "pii_redactor",
+          "from_version": null,
+          "to_version": "1.0.0",
+          "actor": "admin"
+        },
+        {
+          "ts": "2026-02-11T13:30:02Z",
+          "action": "INSTALL",
+          "tenant_id": "t1",
+          "skill_id": "rag_query",
+          "from_version": null,
+          "to_version": "1.0.0",
+          "actor": "admin"
+        },
+        {
+          "ts": "2026-02-11T14:31:21Z",
+          "action": "INSTALL",
+          "tenant_id": "t1",
+          "skill_id": "decision_classifier",
+          "from_version": null,
+          "to_version": "1.0.0",
+          "actor": "admin"
+        }
+      ]
+    }
+  }
+}

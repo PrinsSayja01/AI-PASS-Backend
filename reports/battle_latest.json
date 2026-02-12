@@ -1,0 +1,208 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "total": 20,
+  "passed": 6,
+  "failed": 14,
+  "results": [
+    {
+      "name": "health_ok",
+      "passed": true,
+      "status": 200,
+      "expected_status": 200,
+      "latency_ms": 22,
+      "body": {
+        "ok": true
+      }
+    },
+    {
+      "name": "skills_list_public_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 3,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "summarize_requires_auth",
+      "passed": true,
+      "status": 401,
+      "expected_status": 401,
+      "latency_ms": 22,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "summarize_requires_device",
+      "passed": true,
+      "status": 401,
+      "expected_status": 401,
+      "latency_ms": 11,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "summarize_rejects_extra_fields",
+      "passed": false,
+      "status": 401,
+      "expected_status": 200,
+      "latency_ms": 6,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "summarize_rejects_small_max_words",
+      "passed": false,
+      "status": 401,
+      "expected_status": 200,
+      "latency_ms": 6,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "translate_requires_auth",
+      "passed": true,
+      "status": 401,
+      "expected_status": 401,
+      "latency_ms": 5,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "translate_requires_device",
+      "passed": true,
+      "status": 401,
+      "expected_status": 401,
+      "latency_ms": 6,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "clean_text_ok",
+      "passed": false,
+      "status": 401,
+      "expected_status": 200,
+      "latency_ms": 6,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "language_detect_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 7,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "keyword_extract_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 7,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "json_extract_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 5,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "pii_redactor_ok",
+      "passed": false,
+      "status": 401,
+      "expected_status": 200,
+      "latency_ms": 5,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "url_extract_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 7,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "sentiment_score_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 10,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "decision_classifier_ok",
+      "passed": false,
+      "status": 404,
+      "expected_status": 200,
+      "latency_ms": 6,
+      "body": {
+        "detail": "Not Found"
+      }
+    },
+    {
+      "name": "admin_denied_for_tenant",
+      "passed": false,
+      "status": 401,
+      "expected_status": 403,
+      "latency_ms": 2,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "dev_denied_for_tenant",
+      "passed": false,
+      "status": 401,
+      "expected_status": 403,
+      "latency_ms": 2,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "wallet_requires_auth",
+      "passed": true,
+      "status": 401,
+      "expected_status": 401,
+      "latency_ms": 2,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    },
+    {
+      "name": "wallet_ok",
+      "passed": false,
+      "status": 401,
+      "expected_status": 200,
+      "latency_ms": 2,
+      "body": {
+        "detail": "Missing Bearer token"
+      }
+    }
+  ]
+}

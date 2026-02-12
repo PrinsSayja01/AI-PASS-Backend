@@ -1,0 +1,90 @@
+[
+  {
+    "skill_id": "summarize",
+    "version": "1.0.0",
+    "category": "Reasoning",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/summarize"
+  },
+  {
+    "skill_id": "translate",
+    "version": "1.0.0",
+    "category": "Data",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/translate"
+  },
+  {
+    "skill_id": "clean_text",
+    "version": "1.0.0",
+    "category": "Data",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/clean_text"
+  },
+  {
+    "skill_id": "language_detect",
+    "version": "1.0.0",
+    "category": "Data",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/language_detect"
+  },
+  {
+    "skill_id": "keyword_extract",
+    "version": "1.0.0",
+    "category": "Reasoning",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/keyword_extract"
+  },
+  {
+    "skill_id": "json_extract",
+    "version": "1.0.0",
+    "category": "Data",
+    "risk_level": "Medium",
+    "plan_tier": "Free",
+    "endpoint": "/skills/json_extract"
+  },
+  {
+    "skill_id": "pii_redactor",
+    "version": "1.0.0",
+    "category": "Governance",
+    "risk_level": "Medium",
+    "plan_tier": "Free",
+    "endpoint": "/skills/pii_redactor"
+  },
+  {
+    "skill_id": "url_extract",
+    "version": "1.0.0",
+    "category": "Data",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/url_extract"
+  },
+  {
+    "skill_id": "sentiment_score",
+    "version": "1.0.0",
+    "category": "Reasoning",
+    "risk_level": "Low",
+    "plan_tier": "Free",
+    "endpoint": "/skills/sentiment_score"
+  },
+  {
+    "skill_id": "decision_classifier",
+    "version": "1.0.0",
+    "category": "Decision",
+    "risk_level": "Medium",
+    "plan_tier": "Free",
+    "endpoint": "/skills/decision_classifier"
+  },
+  {
+    "skill_id": "rag_query",
+    "version": "1.0.0",
+    "category": "Reasoning",
+    "risk_level": "Medium",
+    "plan_tier": "Free",
+    "endpoint": "/skills/rag_query"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "ts": 1770921942,
+  "tenant_id": "t1",
+  "user_id": "d87ade9d-7b54-4d15-ac77-4224dc50337e",
+  "device_id": "20453bff-8166-4769-a2d1-7eed59a63808",
+  "workflow_id": "demo-rag-workflow",
+  "version": "1.0.0",
+  "ok": false,
+  "steps_total": 2,
+  "steps_done": 1,
+  "last_step": {
+    "index": 0,
+    "type": "rag_query",
+    "skill_id": null,
+    "ok": false
+  },
+  "finished": true,
+  "latency_ms": 0
+}

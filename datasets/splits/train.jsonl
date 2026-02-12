@@ -1,0 +1,2 @@
+{"id": "d7ed040eb23855ba", "task": "translate", "input": "Hello, how are you?", "output": "Hallo, wie geht es dir?"}
+{"id": "7e4989c5dfefd0d5", "task": "summarize", "input": "AI-Pass is a marketplace for agent skills. It supports governance and sandboxing.", "output": "AI-Pass is a governed marketplace for reusable agent skills."}

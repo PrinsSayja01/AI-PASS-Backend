@@ -1,0 +1,1 @@
+{"id": "27944641-c170-483f-b77f-2dc18de4121f", "tenant_id": "t1", "doc_id": "861dec6e-ee43-49e7-a492-7bfc2b208b6a", "chunk_id": 0, "title": "Tenant Doc", "text": "This is a tenant t1 enterprise doc. Only tenant users can retrieve it.", "owner_user_id": "d87ade9d-7b54-4d15-ac77-4224dc50337e", "created_ts": 1770909412, "acl": {"mode": "tenant", "workflow_ids": []}}

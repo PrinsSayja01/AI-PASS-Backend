@@ -1,0 +1,22 @@
+{
+  "scan_path": "/Users/prinssayja/Prins/AI-Pass-Backend/python",
+  "count": 2,
+  "secret_count": 0,
+  "danger_count": 2,
+  "url_count": 0,
+  "findings": [
+    {
+      "type": "danger",
+      "rule": "node_child_process",
+      "file": "security/scan.py",
+      "match": "pattern_found"
+    },
+    {
+      "type": "danger",
+      "rule": "node_child_process",
+      "file": "security/__pycache__/scan.cpython-312.pyc",
+      "match": "pattern_found"
+    }
+  ],
+  "ok": true
+}

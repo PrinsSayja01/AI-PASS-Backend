@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "review_id": "2f2ceb7b-e44e-4cf6-85fd-d37cef1c38b8",
+      "ts": "2026-02-11T13:43:11Z",
+      "skill_id": "rag_query",
+      "tenant_id": "t1",
+      "user_id": "u1",
+      "rating": 5,
+      "text": "Very useful for enterprise docs.",
+      "verified": true,
+      "developer_response": null
+    },
+    {
+      "review_id": "0c8b3422-2e49-4301-9ed6-b4dc52d06d57",
+      "ts": "2026-02-11T13:43:16Z",
+      "skill_id": "summarize",
+      "tenant_id": "t1",
+      "user_id": "u2",
+      "rating": 4,
+      "text": "Good summary skill.",
+      "verified": false,
+      "developer_response": null
+    },
+    {
+      "review_id": "37c8df91-763b-4e45-980c-6cd60f0bd609",
+      "ts": "2026-02-11T14:28:30Z",
+      "skill_id": "rag_query",
+      "tenant_id": "t1",
+      "user_id": "u10",
+      "rating": 5,
+      "text": "Real enterprise skill!",
+      "verified": false,
+      "developer_response": null
+    }
+  ]
+}

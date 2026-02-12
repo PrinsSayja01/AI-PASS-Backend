@@ -1,0 +1,46 @@
+name: AI-Pass CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      BASE_URL: http://127.0.0.1:8000
+      WF_ID: ${{ secrets.CI_WF_ID }}   # Put your approved workflow_id in GitHub secrets
+      ROOT: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: python
+        run: |
+          python -m venv .venv
+          . .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install requests
+          pip install pip-audit
+
+      - name: Run CI (security scan + battle tests)
+        working-directory: python
+        run: |
+          . .venv/bin/activate
+          ./scripts/ci_run.sh
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            python/reports/*.json
+            python/reports/ci_api.log

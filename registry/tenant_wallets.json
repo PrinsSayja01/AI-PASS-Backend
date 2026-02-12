@@ -1,0 +1,6 @@
+{
+  "tenants": {
+    "t1": {"credits": 1000},
+    "t2": {"credits": 1000}
+  }
+}

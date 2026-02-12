@@ -1,0 +1,12 @@
+[
+  {
+    "doc_id": "doc1",
+    "chunk_id": 0,
+    "text": "AI-Pass is a marketplace for AI Skills. It supports governance, tenant isolation, device tokens, and approval workflows."
+  },
+  {
+    "doc_id": "enterprise_doc_1",
+    "chunk_id": 0,
+    "text": "AI-Pass is a governed AI marketplace. Tenants install workflows. Admin approves versions. Device tokens enforce security."
+  }
+]

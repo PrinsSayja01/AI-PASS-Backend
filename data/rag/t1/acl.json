@@ -1,0 +1,12 @@
+{
+  "mode": "strict",
+  "allow_all_if_empty": false,
+  "workflows": {
+    "*": [
+      "doc_public"
+    ],
+    "c7fb46b9-9df2-49f9-becb-3c27c6ed6e19": [
+      "doc_secret"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "block_high_risk_without_approval": true,
+  "approved_skill_ids": [],
+  "fail_on_secrets": true,
+  "fail_on_dependency_vulns": true,
+  "fail_on_sandbox_validation": false
+}
